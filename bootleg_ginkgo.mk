@@ -20,6 +20,7 @@ $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := false
 BOOTLEGGERS_BUILD_APPS_BUNDLE := false
+BOOTLEGGERS_DEVICE_SUPPORTS_APERTURE := false
 
 # Device identifier
 PRODUCT_NAME := bootleg_ginkgo
