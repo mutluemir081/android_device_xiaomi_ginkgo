@@ -1,5 +1,5 @@
 #
-# Copyright BootleggersROM
+# Copyright Superior OS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -14,16 +14,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
 # Inherit some common Bootleggers stuff
-$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # BootleggersROM Specific Flags
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := false
-BOOTLEGGERS_BUILD_APPS_BUNDLE := false
-BOOTLEGGERS_DEVICE_SUPPORTS_APERTURE := false
 
 # Device identifier
-PRODUCT_NAME := bootleg_ginkgo
+PRODUCT_NAME := superior_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8/8T
