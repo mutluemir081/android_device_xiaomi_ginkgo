@@ -5,8 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg_ginkgo.mk
+    $(LOCAL_DIR)/superior_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    bootleg_ginkgo-userdebug
-    
+    superior_ginkgo-userdebug
+    superior_ginkgo-user
+    superior_ginkgo-eng
