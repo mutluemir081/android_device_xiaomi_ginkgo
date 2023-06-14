@@ -9,5 +9,5 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     superior_ginkgo-userdebug
-    superior_ginkgo-user
-    superior_ginkgo-eng
+
+
